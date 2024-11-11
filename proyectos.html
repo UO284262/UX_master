@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="name" content="Abel Busto Dopazo"/>
-	<meta name="description" content="Página personal del alumno Abel Busto Dopazo del Master de Ingeniería Web de la Universidad de Oviedo"/>
-	<meta name="keywords" content="proyectos,fax"/>
+    <meta name="name" content="Abel Busto Dopazo" />
+    <meta name="description"
+        content="Página personal del alumno Abel Busto Dopazo del Master de Ingeniería Web de la Universidad de Oviedo" />
+    <meta name="keywords" content="proyectos,fax" />
     <title>Mi Página Personal</title>
-	<link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
     <header>
         <h1>Bienvenido a mi página personal</h1>
-		<nav>
-			<a href="index.html">Inicio</a>
-			<a href="proyectos.html">Proyectos</a>
-			<a href="contacto.html">Contacto</a>
-		</nav>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="books.html">Libros Favoritos</a>
+            <a href="series.html">Series de la infancia</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <form id="searchForm" onsubmit="handleSearch(event)">
+            <input type="text" id="searchInput" placeholder="Buscar..." required>
+            <button type="submit">Buscar</button>
+        </form>
     </header>
     <main>
         <h2>Proyectos</h2>
         <ul>
-            <li><strong>Proyecto 1:</strong> Acabar la carrera de Ingeniería Informática del Software. Completado :)</li>
+            <li><strong>Proyecto 1:</strong> Acabar la carrera de Ingeniería Informática del Software. Completado :)
+            </li>
             <li><strong>Proyecto 2:</strong> Acabar el Master en Ingeniería Web.</li>
             <li><strong>Proyecto 3:</strong> Empezar a ejercer como profesor de la Universidad de Oviedo.</li>
         </ul>
@@ -30,4 +40,5 @@
         <p>&copy; 2024 Mi Página Personal</p>
     </footer>
 </body>
+
 </html>
