@@ -70,10 +70,6 @@ main {
     margin: 0em 2em 0em;
 }
 
-p {
-    text-align: justify;
-}
-
 form.input {
     width: 20em;
 }
