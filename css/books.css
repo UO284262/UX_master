@@ -6,16 +6,16 @@ section {
 }
 
 p {
-    max-width: 70rem;
+    max-width: 65rem;
     flex: 1 1 100%;
     /* Asegura que el párrafo ocupe toda la fila si es necesario */
 }
 
 img {
-    max-width: 13rem;
+    max-width: 10rem;
     width: 20%;
     height: auto;
-    margin: 1em;
+    margin: 0.3em;
     flex: 0 1 100%;
     /* Hace que la imagen ocupe el 100% de la fila cuando el espacio es insuficiente */
 }
