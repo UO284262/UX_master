@@ -6,13 +6,13 @@ section {
 }
 
 p {
-    max-width: 80rem;
+    max-width: 70rem;
     flex: 1 1 100%;
     /* Asegura que el párrafo ocupe toda la fila si es necesario */
 }
 
 img {
-    max-width: 15rem;
+    max-width: 13rem;
     width: 20%;
     height: auto;
     margin: 1em;
