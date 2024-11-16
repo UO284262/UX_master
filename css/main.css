@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #f5e6ff;
+    font-size: 1.3rem;
 }
 
 header,
@@ -22,6 +23,10 @@ header {
     padding: 0.4em;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
 h1,
 nav,
 nav a,
@@ -31,12 +36,12 @@ footer {
 
 nav {
     display: flex;
-    flex-direction: row; 
-    justify-content: space-around; 
+    flex-direction: row;
+    justify-content: space-around;
     width: 100%;
     height: 100%;
     font-size: 1.5em;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -75,3 +80,7 @@ form {
     padding-top: 1em;
 }
 
+input,
+button {
+    font-size: 1rem;
+}

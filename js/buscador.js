@@ -101,6 +101,7 @@ $(document).ready(function () {
 
         for (let i = 0; i <= text.length - queryLower.length; i++) {
             let textToEvaluate = text.toLowerCase().substring(i, i + queryLower.length)
+            if (textToEvaluate[0] === " ") { continue }
             let wordToEvaluate = textToEvaluate.split(" ").filter(item => item !== "");
             let wordInQuery = queryLower.split(" ")
 

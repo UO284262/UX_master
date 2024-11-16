@@ -4,13 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="name" content="Abel Busto Dopazo" />
-    <meta name="description"
-        content="Página personal del alumno Abel Busto Dopazo del Master de Ingeniería Web de la Universidad de Oviedo" />
-    <meta name="keywords" content="proyectos,fax" />
-    <title>Mi Página Personal</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <title>Resultados de Búsqueda</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/buscador.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 5198346, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
     <script src="js/index.js"></script>
 </head>
 
@@ -30,14 +37,8 @@
             <button type="submit">Buscar</button>
         </form>
     </header>
-    <main>
-        <h2>Contacto</h2>
-        <p>Puedes contactarme a través de:
-            <li><strong>Correo electrónico:</strong> <a href="UO284262@uniovi.es">UO284262@uniovi.es</a></li>
-            <li><strong>Teléfono:</strong> 644225177</li>
-            <li><strong>Fax:</strong> 2345782582</li>
-        </p>
-    </main>
+    <h2>Resultados de Búsqueda</h2>
+    <div id="results"></div>
     <footer>
         <p>&copy; 2024 Mi Página Personal</p>
     </footer>
