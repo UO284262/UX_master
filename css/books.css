@@ -6,7 +6,7 @@ section {
 }
 
 p {
-    max-width: 95rem;
+    max-width: 80rem;
     flex: 1 1 100%;
     /* Asegura que el párrafo ocupe toda la fila si es necesario */
 }
