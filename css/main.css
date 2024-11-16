@@ -66,6 +66,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
+    height: 2.5em;
 }
 
 main {
