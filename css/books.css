@@ -1,18 +1,21 @@
 section {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan automáticamente */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan automáticamente */
 }
 
 p {
     max-width: 95rem;
-    flex: 1 1 100%; /* Asegura que el párrafo ocupe toda la fila si es necesario */
+    flex: 1 1 100%;
+    /* Asegura que el párrafo ocupe toda la fila si es necesario */
 }
 
 img {
     max-width: 15rem;
     width: 20%;
     height: auto;
-    margin: 1em 0;
-    flex: 0 1 100%; /* Hace que la imagen ocupe el 100% de la fila cuando el espacio es insuficiente */
+    margin: 1em;
+    flex: 0 1 100%;
+    /* Hace que la imagen ocupe el 100% de la fila cuando el espacio es insuficiente */
 }
